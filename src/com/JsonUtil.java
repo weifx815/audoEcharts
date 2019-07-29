@@ -25,7 +25,7 @@ public class JsonUtil {
 		return json;
 	}
 	/**
-	 * JSON转换为Map对象
+	 * JSON字符串转换为Map对象
 	 * @return Map<String, String>
 	 */
 	@SuppressWarnings({ "unchecked"})
@@ -34,7 +34,7 @@ public class JsonUtil {
 		return map;
 	}
 	/**
-	 * JSON转换为Map对象
+	 * JSON对象转换为Map对象
 	 * @return Map<String, String>
 	 */
 	public static Map<String, Object> JsontoMap(JSONObject jsonObject) {
@@ -49,11 +49,8 @@ public class JsonUtil {
         }
         return result;
     }
-
-
-
 	/**
-	 * Map对象转换为String
+	 * @param Map<String, String>对象转换为String
 	 * @return String
 	 */
 	public static String MapToString(Map<String, String> map) {
@@ -61,7 +58,7 @@ public class JsonUtil {
 		return json.toString();
 	}
 	/**
-	 * Map对象转换为JSON
+	 * Map<String, String>对象转换为JSON
 	 * @return JSONObject
 	 */
 	public static JSONObject MapToJson(Map<String, String> map) {
@@ -69,7 +66,7 @@ public class JsonUtil {
 		return json;
 	}
 	/**
-	 * Map对象转换为JSON
+	 * Map<String, Object>对象转换为JSON
 	 * @return JSONObject
 	 */
 	public static JSONObject MapObjToJson(Map<String, Object> map) {
