@@ -1,0 +1,59 @@
+@charset "utf-8";
+/**
+ * 市场监管系统双随机抽查系统 CSS
+ * Author : 张笑莹
+ */
+body{font-family:'Microsoft Yahei','宋体',Tahoma,Arial;font-size:12px;color:#333;margin:0;padding:0; }
+div,form,img,ul,ol,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,iframe{margin:0;padding:0;}
+li{list-style:none;}
+img{border:none;}
+input,textarea,select{outline:none;font-family:'Microsoft Yahei','宋体',Tahoma,Arial;}
+a{outline:none;text-decoration:none;}
+
+.daping {
+    position: relative;
+    width: 100%;
+}
+.dl-group3{
+    font-size: 0;
+    margin-bottom: 10px;
+}
+.dl-group3 dl{
+    width: 40%;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 5%;
+    float: left;
+    padding-bottom: 5px;
+    background: blue;
+}
+.dl-group3 dl dt{
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+}
+.dl-group3 dl dd{
+    width: 90%;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 3px;
+    background: url(../images/module_header_bg.png);
+    overflow: hidden;
+}
+.dl-group3 dl dd p{
+    height: 100%;
+    border-radius: 3px;
+    text-indent: 5px;
+}
+.dl-group3 .dl1 dd p{
+    background: #76b704;
+}
+.dl-group3 .dl2 dd p{
+    background: #02baa2;
+}
+.dl-group3 .dl3 dd p{
+    background: #c105bf;
+}
+.dl-group3 .dl4 dd p{
+    background: #b70448;
+}
